@@ -1,0 +1,117 @@
+body{
+    background-image: url(UserPicture.jpg);
+    background-size: 1920px, 1080px;
+    background-attachment: fixed;
+}
+.Window{
+    height: 450px;
+    width: 500px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 50px;
+    color:#7c7c7c;
+    text-align: center;
+}
+
+img{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.button{
+    grid-row: 3;
+    grid-column: 1 / 2;
+    background-color: gray;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  
+  .msg{
+    height: 300px;
+    width: 500px;
+    background-color:lightgray;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color:#000000;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 30% 70%;
+    text-align: left;
+    
+  }
+
+  .comment{
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color:#7c7c7c;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 65% 20%;
+    text-align: left;
+    
+  }
+
+  .mpg{
+    grid-row-start: 2;
+    grid-row-end:2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin-left: 5%;
+    font-weight: bold;
+}
+  .img{
+    grid-row: 1;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+  }
+
+  #Commenttext{
+    grid-row: 2;
+    grid-column: 1 / 2;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #4a4a4d;
+    border-radius: 4px;
+    background-color:lightgrey;
+    font-size: 16px;
+    resize: none;
+    
+  }
+
+  .h2{
+    grid-row: 1;
+    text-align: center;
+    color: #7c7c7c;
+  }
+  
+  .h{
+    text-align: left;
+  }
